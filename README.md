@@ -49,7 +49,7 @@ book-review-platform/
 ### 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/book-review-platform.git
+git clone https://github.com/PiyushGupta-45/BookReviewingPlatform.git
 cd book-review-platform
 ```
 
@@ -95,22 +95,12 @@ Frontend runs at **http://localhost:5173**
 | POST | `/books` | Add new book (admin only, requires `admin: true` header) |
 | GET | `/reviews?bookId=` | Get reviews for a book |
 | POST | `/reviews` | Submit a new review |
-| GET | `/users/:id` | Get user profile |
-| PUT | `/users/:id` | Update user profile |
-
----
-
-## 🚀 Deployment
-
-- **Frontend:** Deploy with Vercel or Netlify
-- **Backend:** Deploy with Render or Railway
-- Use environment variables for MongoDB URI.
 
 ---
 
 ## 🙌 Author
 
-**Your Name** — B.Tech CSE | Full Stack Developer
+**Piyush Gupta** — B.Tech CSE | Full Stack Developer
 
 ---
 
