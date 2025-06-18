@@ -92,7 +92,6 @@ Frontend runs at **http://localhost:5173**
 |--------|-----------|--------------|
 | GET | `/books` | Get all books (supports `?page` & `?limit`) |
 | GET | `/books/:id` | Get specific book |
-| POST | `/books` | Add new book (admin only, requires `admin: true` header) |
 | GET | `/reviews?bookId=` | Get reviews for a book |
 | POST | `/reviews` | Submit a new review |
 
